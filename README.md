@@ -96,7 +96,8 @@ Si utilizo un framework como Boostrap CSS para qué el apartado gráfico se vea 
 Vista o presentación.
 ## PARTE V. - APLICACIÓN MVC JUEGO
  
-![Uploading image.png…]()
+![image](https://github.com/Santiago0108/lab5/assets/128636125/0b13b673-5575-40d2-a740-d2f2ff337b63)
+
 
 
 ¿Qué pasa si abro el sitio de juegos en dos navegadores difententes?
