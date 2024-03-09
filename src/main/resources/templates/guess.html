@@ -1,0 +1,25 @@
+<html xmlns:th="http://www.thymeleaf.org">  
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Número del 1 al 10</title>
+</head>
+<body>
+
+<h1>Número del 1 al 10</h1>
+
+<p style="margin-top:0; margin-bottom:0;">Puntaje:</p> <div class="left" th:text="${juego.puntaje}"></div>
+
+
+<form id="formulario" action="/juego" method="post">
+  <label for="numero">Ingrese un número del 1 al 10:</label><br>
+  <input type="number" id="numero" name="numero" min="1" max="10" required><br><br>
+  <!-- Cambiar el tipo de botón a submit -->
+  <button type="submit">Enviar</button>
+  <button onclick="window.location.href='/reset'">Reset</button>
+</form>
+
+
+
+</body>
+</html>
